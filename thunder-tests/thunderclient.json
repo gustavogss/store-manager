@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "36b309e8-4ba5-4297-91ff-2e068dd068fc",
+    "colId": "ac743bb5-5161-4ac9-8e11-0687dcce1a27",
+    "containerId": "",
+    "name": "getAllProducts",
+    "url": "http://localhost:3000/products",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-09-09T22:18:22.303Z",
+    "modified": "2022-09-09T22:20:38.321Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5b142595-6ebd-4a70-a3a5-85899e366d31",
+    "colId": "ac743bb5-5161-4ac9-8e11-0687dcce1a27",
+    "containerId": "",
+    "name": "getByIdProduct",
+    "url": "http://localhost:3000/products/1",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-09-09T22:21:45.859Z",
+    "modified": "2022-09-09T22:22:12.208Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "1ffc63fb-78b4-4811-ba9a-5eaa7f65a358",
+    "colId": "ac743bb5-5161-4ac9-8e11-0687dcce1a27",
+    "containerId": "",
+    "name": "createProduct",
+    "url": "http://localhost:3000/products",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-09-12T22:38:37.065Z",
+    "modified": "2022-09-12T22:40:06.181Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"Armadura do Homem de Ferro\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "c2f05254-ceec-4db2-abb8-932bdb3087da",
+    "colId": "ac743bb5-5161-4ac9-8e11-0687dcce1a27",
+    "containerId": "",
+    "name": "getAllSales",
+    "url": "http://localhost:3000/sales",
+    "method": "GET",
+    "sortNum": 60000,
+    "created": "2022-09-13T23:42:11.052Z",
+    "modified": "2022-09-13T23:42:36.692Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "8e855915-eb00-49c7-b74d-282970e872ac",
+    "colId": "ac743bb5-5161-4ac9-8e11-0687dcce1a27",
+    "containerId": "",
+    "name": "createSales",
+    "url": "http://localhost:3000/sales",
+    "method": "POST",
+    "sortNum": 70000,
+    "created": "2022-09-14T13:36:48.877Z",
+    "modified": "2022-09-14T13:59:43.157Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "[\n  {\n    \"productId\": 4,\n    \"quantity\": 1\n  },\n  {\n    \"productId\": 5,\n    \"quantity\": 5\n  }\n]",
+      "form": []
+    },
+    "tests": []
+  }
+]
